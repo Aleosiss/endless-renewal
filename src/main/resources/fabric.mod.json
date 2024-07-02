@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "endless_renewal",
+  "version": "${version}",
+  "name": "Endless Renewal",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/endless_renewal/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.aleosiss.endlessrenewal.client.EndlessRenewalClient"
+    ],
+    "main": [
+      "com.aleosiss.endlessrenewal.EndlessRenewal"
+    ]
+  },
+  "mixins": [
+    "endlessrenewal.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric": "*",
+    "minecraft": ">=1.21"
+  }
+}

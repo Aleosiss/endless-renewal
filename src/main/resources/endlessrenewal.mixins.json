@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.aleosiss.endlessrenewal.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EndPortalBlockMixin",
+    "ServerTimer"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
